@@ -1,0 +1,37 @@
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quizzical-title {
+    font-size: 32px;
+    color: #293264;
+    margin: 0px;
+}
+
+.quizzical-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #293264;
+    margin-top: 8px;
+}
+
+.start-quiz {
+    font-family: "Karla", system-ui;
+    font-family: Karla, system-ui;
+    font-size: 16px;
+    border: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    width: 193px;
+    height: 52px;
+    border-radius: 15px;
+    align-self: center;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.start-quiz:active {
+    background-color: #363e69;
+}

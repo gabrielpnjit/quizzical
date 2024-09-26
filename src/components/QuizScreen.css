@@ -1,0 +1,35 @@
+.quiz-container {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.quiz-button {
+    font-family: Karla, system-ui;
+    font-size: 11px;
+    border: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.check-answers:active {
+    background-color: #363e69;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.results {
+    font-weight: bold;
+    color: #293264;
+    font-size: 13px;
+}
